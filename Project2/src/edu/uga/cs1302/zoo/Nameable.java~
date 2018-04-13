@@ -1,0 +1,6 @@
+package edu.uga.cs1302.zoo;
+/**Interface Nameable has the method signature of getName and setName*/
+public interface Nameable{
+    String getName();
+    void setName(String name);
+}

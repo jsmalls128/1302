@@ -1,0 +1,23 @@
+public class Student extends Person{
+    private String collegeName;
+
+    public Student(){
+	super();
+	collegeName = "UGA";
+    }
+    public Student(String firstName,String lastName,int id,String dob,String collegeName){
+	super(firstName,lastName,id,dob);
+	this.collegeName = collegeName;
+    }
+    public String  getCollegeName(){
+	return collegeName;
+    }
+    public void setCollegeName(String collegeName){
+	this.collegeName = collegeName;
+    }
+    public String toString(){
+	String output;
+	output = id+" "+firstName+" "+lastName+" "+dob+" ["+collegeName+"]";
+	return output;
+    }
+}

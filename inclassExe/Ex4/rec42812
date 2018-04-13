@@ -1,0 +1,29 @@
+Ex4/:
+total 8
+drwxr-xr-x. 2 ugrad 4096 Apr 20 13:35 classes
+-rw-r--r--. 1 ugrad    0 Apr 20 22:10 rec42812
+drwxr-xr-x. 2 ugrad 4096 Apr 20 13:42 src
+
+Ex4/classes:
+total 28
+-rw-r--r--. 1 ugrad  469 Apr 20 13:35 ElementNotFoundException.class
+-rw-r--r--. 1 ugrad  460 Apr 20 13:35 EmptyCollectionException.class
+-rw-r--r--. 1 ugrad  887 Apr 20 13:35 LinearNode.class
+-rw-r--r--. 1 ugrad 2391 Apr 20 13:35 LinkedList.class
+-rw-r--r--. 1 ugrad  604 Apr 20 13:35 LinkedOrderedList.class
+-rw-r--r--. 1 ugrad  519 Apr 20 13:35 ListADT.class
+-rw-r--r--. 1 ugrad  256 Apr 20 13:35 OrderedListADT.class
+
+Ex4/src:
+total 48
+-rw-r--r--. 1 ugrad  432 Apr 20 12:35 ElementNotFoundException.java
+-rw-r--r--. 1 ugrad  402 Apr 20 12:34 EmptyCollectionException.java
+-rw-r--r--. 1 ugrad 1323 Apr 20 13:22 LinearNode.java
+-rw-r--r--. 1 ugrad 1323 Apr 20 12:36 LinearNode.java~
+-rw-r--r--. 1 ugrad 6044 Apr 20 13:42 LinkedList.java
+-rw-r--r--. 1 ugrad 5946 Apr 20 13:35 LinkedList.java~
+-rw-r--r--. 1 ugrad  959 Apr 20 13:42 LinkedOrderedList.java
+-rw-r--r--. 1 ugrad  957 Apr 20 13:35 LinkedOrderedList.java~
+-rw-r--r--. 1 ugrad 1841 Apr 20 12:35 ListADT.java
+-rw-r--r--. 1 ugrad  462 Apr 20 12:35 OrderedListADT.java
+/home/ugrads/jamal/cs1302/inclassExe/Ex4/:/home/work/cs1302c

@@ -1,0 +1,76 @@
+package edu.uga.cs1302.test;
+
+import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.After;
+import org.junit.Test;
+
+import edu.uga.cs1302.muttxt.MyString;
+
+public class MyStringTester{
+    private MyString mystr1, mystr2;
+    
+    @Before
+	public void setUp(){
+        mystr1 = new MyString();
+	mystr2 = new MyString('D');
+    }
+    @After
+	public void tearDown(){
+	mystr1 = null;
+	mystr2 = null;
+    }
+    @Test
+    public void testMyLength(){
+	mystr1.setAt(0,'a');
+	mystr1.setAt(1,'b');
+	mystr1.setAt(2,'c');
+	mystr1.setAt(3,'d');
+	mystr1.setAt(4,'e');
+	mystr1.setAt(5,'f');
+	assertEquals(mystr1.myLength(),6);
+    }
+    @Test
+	public void testMyString(){
+	assertEquals(mystr1.myLength(),0);
+	assertEquals(mystr2.myLength(),1);
+	
+    }
+    @Test
+	public void testEqualsDifferentString(){
+	assertFalse(mystr2.equals(mystr1));
+	
+    }
+    @Test
+	public void testEqualsSameString(){
+	mystr1.setAt(0,'D');
+	assertTrue(mystr2.equals(mystr1));
+    }
+    @Test
+	public void testEqualsDiffThenSame(){
+	assertFalse(mystr2.equals(mystr1));
+	mystr1.setAt(0,'D');
+	assertTrue(mystr2.equals(mystr1));
+    }
+    @Test 
+	public void testMyCharAt(){
+	mystr1.setAt(0,'a');
+	mystr1.setAt(1,'b');
+	mystr1.setAt(2,'c');
+	assertTrue(mystr1.myCharAt(0)== 'a');
+	assertTrue(mystr1.myCharAt(1)== 'b');
+	assertTrue(mystr1.myCharAt(2)== 'c');
+    }
+    @Test
+	public void testMyConCat(){
+	mystr1.setAt(0,'a');
+	mystr1.setAt(1,'b');
+	mystr1.setAt(2,'c');
+	mystr2.setAt(0,'d');
+	mystr2.setAt(1,'e');
+	mystr2.setAt(2,'f');
+	MyString mystr3 = new MyString(mystr1.myConcat(mystr2)
+				       );
+    }
+   
+}

@@ -1,0 +1,26 @@
+compile:Nameable Runner Flyer Animal Dog Cat FlyCat Dragon Platypus Goose 
+
+Animal:Animal.java
+	javac Animal.java -d ~/cs1302/Project2/classes
+Nameable:Nameable.java
+	javac Nameable.java -d ~/cs1302/Project2/classes
+Runner:Runner.java
+	javac Runner.java -d ~/cs1302/Project2/classes
+Flyer:Flyer.java
+	javac Flyer.java -d ~/cs1302/Project2/classes
+Dog:Dog.java
+	javac Dog.java -d ~/cs1302/Project2/classes
+Cat:Cat.java
+	javac Cat.java -d ~/cs1302/Project2/classes
+FlyCat:FlyCat.java
+	javac FlyCat.java -d ~/cs1302/Project2/classes
+Dragon:Dragon.java
+	javac Dragon.java -d ~/cs1302/Project2/classes
+Platypus:Platypus.java
+	javac Platypus.java -d ~/cs1302/Project2/classes
+Goose:Goose.java
+	javac Goose.java -d ~/cs1302/Project2/classes
+Zoo:Zoo.java
+	javac Zoo.java -d ~/cs1302/Project2/classes
+run:Zoo
+	java -cp ~/cs1302/Project2/classes Zoo

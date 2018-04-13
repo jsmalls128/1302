@@ -1,0 +1,36 @@
+package edu.uga.cs1302.list;
+
+public class Demo{
+    
+    public static void main(String args[]){
+	Person p1 = new Person("John","Snow", 1234, "07-07-1991");
+	Person p2 = new Person("Joe","Sno", 1234, "06-06-1990");
+	Person p3 = new Person("John","Snow", 2234, "08-68-1998");
+	
+	SortedDblList person =  new SortedDblList();
+	if(person.isEmpty())
+	    System.out.println("The list is empty");
+	person.add(p1);
+	person.add(p2);
+	person.add(p3);
+	if(!person.isEmpty())
+	    System.out.println("The list is not empty");
+	person.printList();
+	System.out.println(person.indexOf(p2));
+	person.remove(p1);
+	person.printList();
+	System.out.println(person.get(0));
+	
+	Person p4 = new Person("John","Snow", 1234, "07-07-1991");
+	Person p5 = new Person("Joe","Sno", 3005, "06-06-1990");
+	Person p6 = new Person("John","Snow", 2234, "08-68-1998");
+	SortedDblList person2 =  new SortedDblList();
+	if(person.isEmpty())
+	    System.out.println("The list is empty");
+	person2.add(p4);
+	person2.add(p5);
+	person2.add(p6);
+	//SortedDblList person3 = person.union(person2);
+	//person3.printList();
+    }
+}

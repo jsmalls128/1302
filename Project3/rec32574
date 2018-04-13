@@ -1,0 +1,109 @@
+Project3:
+total 24
+drwxr-xr-x. 3 ugrad 4096 Mar 21 15:39 classes
+drwxr-xr-x. 3 ugrad 4096 Mar 21 15:08 doc
+-rw-r--r--. 1 ugrad  334 Mar 21 14:52 Makefile
+-rw-r--r--. 1 ugrad  167 Mar 21 15:42 README.txt
+-rw-r--r--. 1 ugrad  172 Mar 21 15:42 README.txt~
+-rw-r--r--. 1 ugrad    0 Mar 21 15:42 rec32574
+drwxr-xr-x. 3 ugrad 4096 Mar 10 08:38 src
+
+Project3/classes:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Mar 21 15:39 edu
+
+Project3/classes/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Mar 21 15:39 uga
+
+Project3/classes/edu/uga:
+total 4
+drwxr-xr-x. 4 ugrad 4096 Mar 21 15:39 cs1302
+
+Project3/classes/edu/uga/cs1302:
+total 8
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:39 muttxt
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:39 test
+
+Project3/classes/edu/uga/cs1302/muttxt:
+total 8
+-rw-r--r--. 1 ugrad 2950 Mar 21 15:39 MyString.class
+-rw-r--r--. 1 ugrad  661 Mar 21 15:39 MyStringIndexOutOfBoundsException.class
+
+Project3/classes/edu/uga/cs1302/test:
+total 4
+-rw-r--r--. 1 ugrad 3521 Mar 21 15:39 MyStringTester.class
+
+Project3/doc:
+total 96
+-rw-r--r--. 1 ugrad   973 Mar 21 15:38 allclasses-frame.html
+-rw-r--r--. 1 ugrad   913 Mar 21 15:38 allclasses-noframe.html
+-rw-r--r--. 1 ugrad  3545 Mar 21 15:38 constant-values.html
+-rw-r--r--. 1 ugrad  3495 Mar 21 15:38 deprecated-list.html
+drwxr-xr-x. 3 ugrad  4096 Mar 21 15:04 edu
+-rw-r--r--. 1 ugrad  8213 Mar 21 15:38 help-doc.html
+-rw-r--r--. 1 ugrad 16010 Mar 21 15:38 index-all.html
+-rw-r--r--. 1 ugrad  2923 Mar 21 15:38 index.html
+-rw-r--r--. 1 ugrad   895 Mar 21 15:38 overview-frame.html
+-rw-r--r--. 1 ugrad  4068 Mar 21 15:38 overview-summary.html
+-rw-r--r--. 1 ugrad  4721 Mar 21 15:38 overview-tree.html
+-rw-r--r--. 1 ugrad    42 Mar 21 15:38 package-list
+-rw-r--r--. 1 ugrad   827 Mar 21 15:38 script.js
+-rw-r--r--. 1 ugrad  4042 Mar 21 15:38 serialized-form.html
+-rw-r--r--. 1 ugrad 12842 Mar 21 15:04 stylesheet.css
+
+Project3/doc/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Mar 21 15:04 uga
+
+Project3/doc/edu/uga:
+total 4
+drwxr-xr-x. 4 ugrad 4096 Mar 21 15:07 cs1302
+
+Project3/doc/edu/uga/cs1302:
+total 8
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:04 muttxt
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:07 test
+
+Project3/doc/edu/uga/cs1302/muttxt:
+total 56
+-rw-r--r--. 1 ugrad 20543 Mar 21 15:38 MyString.html
+-rw-r--r--. 1 ugrad 10722 Mar 21 15:38 MyStringIndexOutOfBoundsException.html
+-rw-r--r--. 1 ugrad  1040 Mar 21 15:38 package-frame.html
+-rw-r--r--. 1 ugrad  5399 Mar 21 15:38 package-summary.html
+-rw-r--r--. 1 ugrad  4928 Mar 21 15:38 package-tree.html
+
+Project3/doc/edu/uga/cs1302/test:
+total 36
+-rw-r--r--. 1 ugrad 14270 Mar 21 15:38 MyStringTester.html
+-rw-r--r--. 1 ugrad   820 Mar 21 15:38 package-frame.html
+-rw-r--r--. 1 ugrad  4593 Mar 21 15:38 package-summary.html
+-rw-r--r--. 1 ugrad  4412 Mar 21 15:38 package-tree.html
+
+Project3/src:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Mar 10 08:38 edu
+
+Project3/src/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Mar 10 08:38 uga
+
+Project3/src/edu/uga:
+total 4
+drwxr-xr-x. 4 ugrad 4096 Mar 19 15:07 cs1302
+
+Project3/src/edu/uga/cs1302:
+total 8
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:30 muttxt
+drwxr-xr-x. 2 ugrad 4096 Mar 21 15:36 test
+
+Project3/src/edu/uga/cs1302/muttxt:
+total 12
+-rw-r--r--. 1 ugrad  959 Mar 21 15:11 MyStringIndexOutOfBoundsException.java
+-rw-r--r--. 1 ugrad 6130 Mar 21 14:17 MyString.java
+
+Project3/src/edu/uga/cs1302/test:
+total 16
+-rw-r--r--. 1 ugrad 4878 Mar 21 15:36 MyStringTester.java
+-rw-r--r--. 1 ugrad 4866 Mar 21 15:33 MyStringTester.java~
+/home/ugrads/jamal/cs1302/Project3:/home/work/cs1302c

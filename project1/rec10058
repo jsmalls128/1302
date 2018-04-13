@@ -1,0 +1,21 @@
+project1:
+total 28
+drwxr-xr-x. 2 ugrad 4096 Jan 25 17:39 classes
+-rw-r--r--. 1 ugrad  207 Feb  5 22:25 Makefile
+-rw-r--r--. 1 ugrad  211 Feb  5 16:12 Makefile~
+-rw-r--r--. 1 ugrad  230 Feb  5 22:26 README.txt
+-rw-r--r--. 1 ugrad  226 Feb  5 22:23 README.txt~
+-rw-r--r--. 1 ugrad    0 Feb  5 22:27 rec10058
+-rw-r--r--. 1 ugrad   24 Feb  5 18:48 seed1.txt
+drwxr-xr-x. 2 ugrad 4096 Feb  5 22:24 src
+
+project1/classes:
+total 8
+-rw-r--r--. 1 ugrad 7676 Feb  5 22:25 Minesweeper.class
+
+project1/src:
+total 36
+-rw-r--r--. 1 ugrad 14769 Feb  5 19:26 Minesweeper.java
+-rw-r--r--. 1 ugrad 13817 Feb  5 19:15 Minesweeper.java~
+-rw-r--r--. 1 ugrad    22 Feb  5 18:00 seed1.txt~
+/home/ugrads/jamal/cs1302/project1:/home/work/cs1302c

@@ -1,0 +1,124 @@
+Project2/:
+total 20
+drwxr-xr-x. 3 ugrad 4096 Feb 21 14:37 classes
+drwxr-xr-x. 3 ugrad 4096 Feb 23 12:51 doc
+-rw-r--r--. 1 ugrad  102 Feb 23 12:31 Makefile
+-rw-r--r--. 1 ugrad   87 Feb 23 12:34 README.txt
+-rw-r--r--. 1 ugrad    0 Feb 23 14:45 rec50127
+drwxr-xr-x. 3 ugrad 4096 Feb 21 12:46 src
+
+Project2/classes:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 21 14:37 edu
+
+Project2/classes/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 21 14:37 uga
+
+Project2/classes/edu/uga:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 21 14:37 cs1302
+
+Project2/classes/edu/uga/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Feb 21 14:37 zoo
+
+Project2/classes/edu/uga/cs1302/zoo:
+total 48
+-rw-r--r--. 1 ugrad  949 Feb 23 14:44 Animal.class
+-rw-r--r--. 1 ugrad  728 Feb 23 14:44 Cat.class
+-rw-r--r--. 1 ugrad  728 Feb 23 14:44 Dog.class
+-rw-r--r--. 1 ugrad  859 Feb 23 14:44 Dragon.class
+-rw-r--r--. 1 ugrad  732 Feb 23 14:44 FlyCat.class
+-rw-r--r--. 1 ugrad  130 Feb 23 14:44 Flyer.class
+-rw-r--r--. 1 ugrad  857 Feb 23 14:44 Goose.class
+-rw-r--r--. 1 ugrad  199 Feb 23 14:44 Nameable.class
+-rw-r--r--. 1 ugrad  738 Feb 23 14:44 Platypus.class
+-rw-r--r--. 1 ugrad  132 Feb 23 14:44 Runner.class
+-rw-r--r--. 1 ugrad 4443 Feb 23 14:44 Zoo.class
+
+Project2/doc:
+total 84
+-rw-r--r--. 1 ugrad  1924 Feb 23 14:43 allclasses-frame.html
+-rw-r--r--. 1 ugrad  1704 Feb 23 14:43 allclasses-noframe.html
+-rw-r--r--. 1 ugrad  3545 Feb 23 14:43 constant-values.html
+-rw-r--r--. 1 ugrad  3495 Feb 23 14:43 deprecated-list.html
+drwxr-xr-x. 3 ugrad  4096 Feb 23 12:51 edu
+-rw-r--r--. 1 ugrad  7930 Feb 23 14:43 help-doc.html
+-rw-r--r--. 1 ugrad 18700 Feb 23 14:43 index-all.html
+-rw-r--r--. 1 ugrad  2796 Feb 23 14:43 index.html
+-rw-r--r--. 1 ugrad  6740 Feb 23 14:43 overview-tree.html
+-rw-r--r--. 1 ugrad    19 Feb 23 14:43 package-list
+-rw-r--r--. 1 ugrad   827 Feb 23 14:43 script.js
+-rw-r--r--. 1 ugrad 12842 Feb 23 12:51 stylesheet.css
+
+Project2/doc/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 23 12:51 uga
+
+Project2/doc/edu/uga:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 23 12:51 cs1302
+
+Project2/doc/edu/uga/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Feb 23 12:51 zoo
+
+Project2/doc/edu/uga/cs1302/zoo:
+total 176
+-rw-r--r--. 1 ugrad 18083 Feb 23 14:43 Animal.html
+-rw-r--r--. 1 ugrad 12395 Feb 23 14:43 Cat.html
+-rw-r--r--. 1 ugrad 12394 Feb 23 14:43 Dog.html
+-rw-r--r--. 1 ugrad 13611 Feb 23 14:43 Dragon.html
+-rw-r--r--. 1 ugrad 12500 Feb 23 14:43 FlyCat.html
+-rw-r--r--. 1 ugrad  7502 Feb 23 14:43 Flyer.html
+-rw-r--r--. 1 ugrad 13565 Feb 23 14:43 Goose.html
+-rw-r--r--. 1 ugrad  8468 Feb 23 14:43 Nameable.html
+-rw-r--r--. 1 ugrad  1952 Feb 23 14:43 package-frame.html
+-rw-r--r--. 1 ugrad  7308 Feb 23 14:43 package-summary.html
+-rw-r--r--. 1 ugrad  7061 Feb 23 14:43 package-tree.html
+-rw-r--r--. 1 ugrad 12569 Feb 23 14:43 Platypus.html
+-rw-r--r--. 1 ugrad  7708 Feb 23 14:43 Runner.html
+-rw-r--r--. 1 ugrad  8958 Feb 23 14:43 Zoo.html
+
+Project2/src:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 18 11:34 edu
+
+Project2/src/edu:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 18 19:29 uga
+
+Project2/src/edu/uga:
+total 4
+drwxr-xr-x. 3 ugrad 4096 Feb 18 11:34 cs1302
+
+Project2/src/edu/uga/cs1302:
+total 4
+drwxr-xr-x. 2 ugrad 4096 Feb 23 14:43 zoo
+
+Project2/src/edu/uga/cs1302/zoo:
+total 96
+-rw-r--r--. 1 ugrad 2090 Feb 23 14:39 Animal.java
+-rw-r--r--. 1 ugrad 2189 Feb 23 14:38 Animal.java~
+-rw-r--r--. 1 ugrad  724 Feb 23 14:40 Cat.java
+-rw-r--r--. 1 ugrad  736 Feb 23 12:46 Cat.java~
+-rw-r--r--. 1 ugrad  720 Feb 23 14:40 Dog.java
+-rw-r--r--. 1 ugrad  732 Feb 23 12:47 Dog.java~
+-rw-r--r--. 1 ugrad  980 Feb 23 14:40 Dragon.java
+-rw-r--r--. 1 ugrad 1004 Feb 23 12:47 Dragon.java~
+-rw-r--r--. 1 ugrad  750 Feb 23 14:41 FlyCat.java
+-rw-r--r--. 1 ugrad  762 Feb 23 12:47 FlyCat.java~
+-rw-r--r--. 1 ugrad  122 Feb 21 13:54 Flyer.java
+-rw-r--r--. 1 ugrad  922 Feb 23 14:41 Goose.java
+-rw-r--r--. 1 ugrad  946 Feb 23 12:48 Goose.java~
+-rw-r--r--. 1 ugrad  836 Feb 21 14:39 Makefile
+-rw-r--r--. 1 ugrad  839 Feb 21 13:57 Makefile~
+-rw-r--r--. 1 ugrad  182 Feb 21 14:22 Nameable.java
+-rw-r--r--. 1 ugrad  181 Feb 21 13:55 Nameable.java~
+-rw-r--r--. 1 ugrad  765 Feb 23 14:42 Platypus.java
+-rw-r--r--. 1 ugrad  777 Feb 23 12:48 Platypus.java~
+-rw-r--r--. 1 ugrad  125 Feb 21 13:55 Runner.java
+-rw-r--r--. 1 ugrad 6806 Feb 23 14:43 Zoo.java
+-rw-r--r--. 1 ugrad 6834 Feb 23 13:52 Zoo.java~
+/home/ugrads/jamal/cs1302/Project2/:/home/work/cs1302c

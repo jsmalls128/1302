@@ -1,0 +1,230 @@
+package edu.uga.cs1302.zoo;
+import java.util.Scanner;
+/**A representation of an imaginary zoo we have created. There are common and not so common animals in this zoo.
+ *A tester class to see if we can do Inheritance,Abstraction,Interfaces and javadoc correctly*/
+public class Zoo{
+    /**
+     * A static method that displays the menu options
+     *
+     */
+    private static void displayMenu(){
+	System.out.println("\nPress 1 to see how many animals are in the system.");
+	System.out.println("Press 2 to see the name and kind of each animal.");
+	System.out.println("Press 3 to see which animals can fly.");
+	System.out.println("Press 4 to see which animals can run.");
+	System.out.println("Press 5 to see which animals can run AND fly.");
+	System.out.println("Press 6 to see a description of each animal.");
+	System.out.println("Press q to terminate the program.");
+    }
+    /** The main method. Creates multiple different animals and test them.
+     *@param args A string array of arguments.
+     **/
+    public static void main(String[] args){
+	Animal[] animalList = new Animal[18];
+	Scanner scan = new Scanner(System.in);
+	// initializations of Animals
+	Dog dog1 = new Dog(3,"Woofer",4);
+	Dog dog2 = new Dog(2,"Doggo",4);
+	Dog dog3 = new Dog(5,"Doge",4);
+	animalList[0] = dog1;
+	animalList[1] = dog2;
+	animalList[2] = dog3;
+	Cat Cat1 = new Cat(7,"Whiskers",4);
+	Cat Cat2 = new Cat(4,"Muffin",4);
+	Cat Cat3 = new Cat(6,"Mittens",4);
+	animalList[3] = Cat1;
+	animalList[4] = Cat2;
+	animalList[5] = Cat3;
+	FlyCat FlyNCat1 = new FlyCat(7,"Winged Whiskers",4);
+	FlyCat FlyNCat2 = new FlyCat(4,"Winged Muffin",4);
+	FlyCat FlyNCat3 = new FlyCat(6,"Winged Mittens",4);
+	animalList[6] = FlyNCat1;
+	animalList[7] = FlyNCat2;
+	animalList[8] = FlyNCat3;
+	Dragon d1 = new Dragon(30,"Toothless",4);
+	Dragon d2 = new Dragon(5000,"Quetzalcoatl",2);
+	Dragon d3 = new Dragon(6000,"Fafnir",4);
+	animalList[9] = d1;
+	animalList[10] = d2;
+	animalList[11] = d3;
+	Platypus p1 = new Platypus (5,"Perry",4);
+	Platypus p2 = new Platypus (4,"Chuck",4);
+	Platypus p3 = new Platypus (4,"One Eye",4);
+	animalList[12] = p1;
+	animalList[13] = p2;
+	animalList[14] = p3;
+	Goose g1 = new Goose (3,"Mindy",2);
+	Goose g2 = new Goose (3,"One leg",1);
+	Goose g3 = new Goose (3,"Alison",2);
+	animalList[15] = g1;
+	animalList[16] = g2;
+	animalList[17] = g3;
+	displayMenu();
+
+	// Runs until input is q
+	while(true){
+	    
+	    String input = scan.nextLine().trim();
+	    if(input.equals("1")){
+		System.out.println("There are " +Animal.getNumOfAnimals()+" animals in the system");
+	    }// 1
+	    else
+	    if(input.equals("2")){
+		String type;           // The type of the Animal
+		for(int i = 0; i< animalList.length;i++){
+		    // If the Animal is a Cat
+		    if(animalList[i] instanceof Cat){
+			type = "Cat";
+		    }
+		    // If the Animal is a FlyCat
+		    else
+		    if(animalList[i] instanceof FlyCat){
+			type = "FlyCat";
+		    }
+		    // If the Animal is a Dragon
+		    else
+		    if(animalList[i] instanceof Dragon){
+			type = "Dragon";
+		    }
+		    // If the Animal is a Platypus
+		    else
+		    if(animalList[i] instanceof Platypus){
+			    type = "Platypus";
+			}
+		    // If the Animal is a Goose
+		    else
+		    if(animalList[i] instanceof Goose){
+			    type = "Goose";
+			}
+		    // If the Animal is a Dog
+		    else
+			type = "Dog";
+
+		    System.out.println(animalList[i].getName()+" is a " + type);
+		}
+	    }// 2
+	    else
+	    if(input.equals("3")){
+		String type = "";          // The type of the Animal
+		for(int i = 0; i< animalList.length;i++){
+		    // If the Animal is a FlyCat, Dragon, or Goose
+		    if(animalList[i] instanceof FlyCat ||animalList[i] instanceof Dragon ||animalList[i] instanceof Goose){
+			// If the Animal is a FlyCat
+			if(animalList[i] instanceof FlyCat){
+			    type = "FlyCat";
+			}
+			// If the Animal is a Dragon
+			else
+			if(animalList[i] instanceof Dragon){
+			    type = "Dragon";
+			}
+			// If the animal is a Goose
+			else
+			    type = "Goose";
+      
+			System.out.println(animalList[i].getName()+" is a " + type +" and can fly.");
+		    }	    
+		}
+	    }// 3
+	    else
+	    if(input.equals("4")){
+		String type = "";          // The type of the Animal
+		for(int i = 0; i< animalList.length;i++){
+		    // If the Animal is not a FlyCat
+		    if(animalList[i] instanceof FlyCat == false){
+			// If the Animal is a Dog
+			if(animalList[i] instanceof Dog){
+			    type = "Dog";
+			}
+			// If the Animal is a Cat
+			else
+			if(animalList[i] instanceof Cat){
+			    type = "Cat";
+			}
+			// If the Animal is a Dragon
+			else
+			if(animalList[i] instanceof Dragon){
+			    type = "Dragon";
+			}
+			// If the Animal is a Platypus
+			else
+			if(animalList[i] instanceof Platypus){
+			    type = "Platypus";
+			}
+			// If the Animal is a Goose
+			else
+			    type = "Goose";
+      
+			System.out.println(animalList[i].getName()+" is a " + type +" and can run.");
+		    }
+		}
+	    }// 4
+	    else
+	    if(input.equals("5")){
+		String type = "";           // The type of the Animal
+		for(int i = 0; i< animalList.length;i++){
+		    // If the Animal is a Dragon or a Goose
+		    if(animalList[i] instanceof Dragon ||animalList[i] instanceof Goose){
+			// If the Animal is a Dragon
+			if(animalList[i] instanceof Dragon){
+			    type = "Dragon";
+			}
+			// If the Animal is a Goose
+			else
+			    type = "Goose";
+      
+			System.out.println(animalList[i].getName()+" is a " + type +" which can fly and run.");
+		    }
+		}
+	    }// 5
+	    else
+	    if(input.equals("6")){
+		String type;                 //The type of the Animal
+		String action;               //The action the animal is capable of
+		for(int i = 0; i< animalList.length;i++){
+		    // if the Animal is a Cat
+		    if(animalList[i] instanceof Cat){
+			type = "Cat";
+			action = "run.";
+		    }
+		    // if the Animal is a Goose
+		    else
+		    if(animalList[i] instanceof Goose){
+			type = "Goose";
+			action = "run and fly.";
+		    }
+		    // if the Animal is a Platypus
+		    else
+		    if(animalList[i] instanceof Platypus){
+			type = "Platypus";
+			action = "run.";
+		    }
+		    // if the Animal is a FlyCat
+		    else
+		    if(animalList[i] instanceof FlyCat){
+			type = "FlyCat";
+			action = "fly.";
+		    }
+		    // if the Animal is a Dragon
+		    else
+		    if(animalList[i] instanceof Dragon){
+			type = "Dragon";
+			action = "run and fly.";
+		    }
+		    // if the Animal is a Dog
+		    else{
+			type = "Dog";
+			action = "run.";
+		    }
+		    System.out.println("I am a "+ type +" and my name is "+animalList[i].getName()+" I have "+animalList[i].getNumOfLegs()+" legs and I can " + action );
+		}
+	    }// 6
+	    else
+	    if(input.equals("q")){
+		System.exit(0);
+	    }// q
+	    else
+		System.out.println("Error: invalid input, Please enter a valid input.(1, 2, 3, 4, 5, 6, q)");
+	}//while
+    } // main
+} // Zoo

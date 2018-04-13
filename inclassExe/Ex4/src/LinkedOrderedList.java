@@ -1,0 +1,40 @@
+/**
+ * LinkedOrderedList represents a singly linked implementation of an 
+ * ordered list.
+ *
+ * @author Mehdi
+ */
+public class LinkedOrderedList<T> extends LinkedList<T> 
+         implements OrderedListADT<T>
+{
+    /**
+     * Creates an empty list.
+     */
+    public LinkedOrderedList()
+    {
+        super();
+    }
+
+    /**
+     * Adds the specified element to this list at the location determined by
+	 * the element's natural ordering. Throws a NonComparableElementException 
+	 * if the element is not comparable.
+     *
+     * @param element the element to be added to this list
+     * @throws NonComparableElementException if the element is not comparable
+     */
+    public void add(T element)
+    {
+        // To be completed as a Programming Projec
+	if(isEmpty()){
+	    LinearNode addedNode = new LinearNode(element);
+	    head = addedNode;
+	    tail = head;
+	    count++;
+	}
+	else{
+	    // How do I compare the elements to order them??
+	}
+	
+    }
+}

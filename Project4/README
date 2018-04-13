@@ -1,0 +1,7 @@
+How to compile my code
+$ make
+
+How to run my code
+$ make test
+
+javadoc -d doc src/edu/uga/cs1302/list/*.java

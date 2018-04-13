@@ -1,0 +1,22 @@
+cs1302/inclassExe/:
+total 8
+drwxr-xr-x. 2 ugrad 4096 Feb 23 19:47 classes
+-rw-r--r--. 1 ugrad    0 Feb 23 21:23 rec21838
+drwxr-xr-x. 2 ugrad 4096 Feb 23 21:21 src
+
+cs1302/inclassExe/classes:
+total 12
+-rw-r--r--. 1 ugrad 1403 Feb 23 21:13 HourlyEmployee.class
+-rw-r--r--. 1 ugrad  486 Feb 23 21:13 Personal.class
+-rw-r--r--. 1 ugrad  482 Feb 23 21:04 Person.class
+
+cs1302/inclassExe/src:
+total 28
+-rw-r--r--. 1 ugrad  779 Feb 23 21:21 EmployeeTester.java
+-rw-r--r--. 1 ugrad  528 Feb 23 21:18 EmployeeTester.java~
+-rw-r--r--. 1 ugrad 1042 Feb 23 21:06 HourlyEmployee.java
+-rw-r--r--. 1 ugrad 1040 Feb 23 21:04 HourlyEmployee.java~
+-rw-r--r--. 1 ugrad  343 Feb 23 21:09 Personal.java
+-rw-r--r--. 1 ugrad  337 Feb 23 21:06 Personal.java~
+-rw-r--r--. 1 ugrad  333 Feb 23 21:04 Person.java~
+/home/ugrads/jamal/cs1302/inclassExe/:/home/work/cs1302c

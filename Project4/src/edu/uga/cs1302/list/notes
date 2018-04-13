@@ -1,0 +1,5 @@
+ What remove currently does
+ Loops throught the entire linked lists
+ if the object is found loop through and get the node
+ when the node is found remove that node and make its attributes null
+ What if the objec is the head?
